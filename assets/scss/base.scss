@@ -1,0 +1,149 @@
+.hell {
+  font-size: 80px;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+body {
+  background: hsla(129, 20%, 95%, 1);
+  color: #2795d6;
+  display: flex;
+  font: 16px/1.5 sans-serif;
+  justify-content: center;
+  margin: 0;
+}
+
+.wrapper {
+  text-align: center;
+  width: 100%;
+}
+.container {
+  position: relative;
+  background: radial-gradient(ellipse at bottom, #2795d6 0%, #2795d9 100%);
+  background-attachment: fixed;
+  color: hsla(128, 20%, 95%, 1);
+}
+
+div {
+  display: block;
+}
+
+.welcome {
+  padding-top: 4em;
+  margin-bottom: 3em;
+}
+
+.welcome small {
+  display: block;
+  font-size: 85%;
+}
+
+.container .logo {
+  margin-bottom: 1em;
+}
+
+.status {
+  padding-bottom: 4em;
+}
+@media (min-width: 768px) {
+  .status code {
+    display: inline-flex;
+  }
+}
+
+code {
+  border-radius: 25px;
+  background: hsla(19, 20%, 95%, 1);
+  box-shadow: 0 0 45px -15px hsl(19deg 20% 2%);
+  color: hsla(19, 20%, 45%, 1);
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  align-items: center;
+  padding-right: 20px;
+  position: relative;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.resources {
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 2.5em 0 3.5em;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .resources .row {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+.resources .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  .resource {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .resource svg {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+.resource svg {
+  height: 48px;
+  width: 48px;
+  fill: #2795d6;
+  margin-bottom: 5px;
+}
+svg {
+  overflow: hidden;
+  vertical-align: text-bottom;
+}
+
+@media (min-width: 768px) {
+  .resource h2 {
+    font-size: 24px;
+  }
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .resource a {
+    font-size: 16px;
+    margin-top: 0;
+  }
+}
+.resource a {
+  display: block;
+  font-size: 14px;
+}
+a {
+  color: #2795d6;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+}
+.dw-logo {
+  margin-top: 10.9rem;
+}
